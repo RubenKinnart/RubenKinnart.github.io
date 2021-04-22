@@ -46,7 +46,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="#about">Introductie</a></li>
+          <li><a class="nav-link  scrollto" href="#about">Introductie</a></li>
           <li><a class="nav-link  scrollto" href="#activities">Alle activiteiten</a></li>
           <li><a class="nav-link  scrollto" href="#selection">Selectie</a></li>
           <li><a class="nav-link  scrollto" href="#reflection">Reflectie</a></li>
@@ -69,10 +69,10 @@
         <p id="subtitle"> Student toegepaste informatica @PXL</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="https://www.facebook.com/ruben.kinnart" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          <!-- <li><a href="https://www.facebook.com/ruben.kinnart" target="_blank"><i class="bi bi-facebook"></i></a></li>
           <li><a href="https://twitter.com/Rubenkinnart" target="_blank"><i class="bi bi-twitter"></i></a></li>
           <li><a href="https://www.instagram.com/ruben.kinnart/" target="_blank"><i class="bi bi-instagram"></i></a>
-          </li>
+          </li> -->
           <li><a href="https://www.linkedin.com/in/ruben-kinnart" target="_blank"><i class="bi bi-linkedin"></i></a>
           </li>
         </ul>
@@ -98,7 +98,9 @@
           <div class="col-lg-7">
             <div class="about-descr">
 
-              <p class="p-heading">Ik ben ... </p>
+              <p class="p-heading">Mijn naam is Ruben Kinnart. Ik ben een derdejaarsstudent die Toegepaste Informatica met keuzetraject AI en Robotics studeert aan de Hogeschool PXL. Zelf ben ik een rustige maar gemotiveerde student die graag bijleert.</p>
+              <p class="separator">Mijn interesses zijn IT en computer gerelateerd. Ik probeer de laatste nieuwe trends hierin te volgen en vind het zeer leuk om te programmeren en om naar al dan niet wiskundige oplossingen te zoeken, problem solving. Specifiek ben ik geinteresseerd in AI en Robotics en vind ik het ook leuk om Buiten dit vakgebied vind ik het ook leuk om te gaan fietsen en om films of series te kijken. </p>
+              <p class="separator">Hogeschool PXL biedt studenten aan een Thalento-test in te vullen. Na het invullen van een vragenlijst wordt er een attest op basis van je kernkwadranten gevormd. In mijn attest staat dat ik vooral meewerkend ben. Andere eigenschappen die ik op het rapport terug kon vinden over mezelf zijn ook dat ik een pragmaticus ben, dat ik uitvoerend ben en dat ik extravert ben. Over het algemeen klopt dit attest, al ben ik volgens mezelf meer introvert dan extravert. Ik vind het namelijk leuk om alleen en op mijn eigen tempo aan iets te werken.</p>
               <p class="separator">Ik ben ...</p>
 
             </div>
@@ -114,8 +116,67 @@
     <div id="activities" class="paddsection">
 
       <div class="container">
-        <div class="section-title text-center">
-          <h2>Alle activiteiten</h2>
+        <div class="section-title">
+          <h2 class="text-center">Alle activiteiten</h2>
+          <br><br>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                  Seminaries
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Seminaries gevolgd tijdens deze opleiding: 
+                    <br><br>
+                  <div class="list-group-item">
+                    
+                    <h6 class="list-group-item-heading">
+                        Seminarie 1 <a target="_blank" href="http://www.pxl.be/">@PXL</a>
+                    </h6>
+                    <span><span>20/10/2015</span> - <span>21 uur</span></span>
+                    <p class="list-group-item-text">
+                        <strong style="color: #b8a07e;">PXL activiteit</strong> - ...
+                    </p>
+                </div>
+                <div class="list-group-item">
+                    <span class="pull-right"><span class="badge">26/10/2015</span> <span class="badge">15 uur</span></span>
+                    <h6 class="list-group-item-heading">
+                        Seminarie 2 @<a target="_blank" href="https://www.coursera.org/learn/objective-c">Coursera</a>
+                    </h6>
+                    <p class="list-group-item-text">
+                        <strong style="color: #b8a07e;">Eigen activiteit</strong> - ...
+                    </p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -144,7 +205,7 @@
             <div class="col">
               <div class="selection-info">
 
-                <a href="activity1.html"><img src="assets/img/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+                <a href="activity1.html"><img src="assets/img/activity1_00.jpeg" class="img-responsive" alt="img"></a>
 
                 <div class="selection-txt">
 
@@ -267,10 +328,10 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="https://www.facebook.com/ruben.kinnart" target="_blank"><i class="bi bi-facebook"></i></a></li>
+          <!-- <li><a href="https://www.facebook.com/ruben.kinnart" target="_blank"><i class="bi bi-facebook"></i></a></li>
           <li><a href="https://twitter.com/Rubenkinnart" target="_blank"><i class="bi bi-twitter"></i></a></li>
           <li><a href="https://www.instagram.com/ruben.kinnart/" target="_blank"><i class="bi bi-instagram"></i></a>
-          </li>
+          </li> -->
           <li><a href="https://www.linkedin.com/in/ruben-kinnart" target="_blank"><i class="bi bi-linkedin"></i></a>
           </li>
         </ul>
