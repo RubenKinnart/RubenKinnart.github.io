@@ -56,9 +56,8 @@ p {
 }
 
 #subtitle {
-  background-color: #b8a07e;
-  width: 360px;
-
+  max-width: 500px;
+  text-align: center;
 }
 
 ::-moz-selection {
